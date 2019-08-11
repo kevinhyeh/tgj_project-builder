@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "antd": "^3.21.4",
+    "eslint": "^6.1.0",
+    "install": "^0.13.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0"
@@ -31,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:kevinhyeh/tgj_project-builder.git",
+  "author": "Kevin Yeh <kevin@shopvida.com>",
+  "license": "MIT"
 }

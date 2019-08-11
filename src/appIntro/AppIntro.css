@@ -1,0 +1,54 @@
+.appIntro {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.appIntro_container {
+	color: #fff;
+	width: 40rem;
+	text-align: center;
+	border: 0.2rem solid #fff;
+	border-radius: 0.5rem;
+	padding: 3.5rem 3rem;
+}
+
+.appIntro_title {
+	color: #fff;
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.appIntro_desc {
+	color: #fff;
+	font-size: 1.4rem;
+}
+
+.homepage .appIntro .ant-steps-item-title {
+	color: #fff;
+}
+
+.appIntro_container .ant-btn {
+	width: 100px;
+	border-radius: 5px;
+	height: 2.8rem;
+}
+
+.appIntro_container .ant-btn:first-child {
+	margin-right: 1rem;
+}
+
+.appIntro_container .ant-btn:first-child:hover {
+	border-color: #fff;
+}
+
+.appIntro_container .ant-btn:hover {
+	background-color: transparent;
+}

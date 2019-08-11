@@ -1,33 +1,69 @@
-.App {
-  text-align: center;
+.tu {
+  text-transform: uppercase;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.bold {
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepage {
+  position: relative;
+}
+
+.homepage_drawer {
+  width: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 1rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation .ant-drawer-content-wrapper {
+  height: 120px!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation .ant-drawer-body {
+  padding: 0;
+}
+
+.summary .ant-drawer-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ant-btn {
+  padding: 0;
+  height: 3.2rem;
+  width: 100%;
+  transition: all .3s;
+  border-radius: 0;
+}
+
+.ant-btn:hover {
+  background-color: #444;
+}
+
+.ant-btn:hover .anticon {
+  color: #fff;
+}
+
+.anticon {
+  color: #000;
+  margin-top: .2rem;
+}
+
+.anticon-menu {
+  font-size: 1.2rem;
+  margin-bottom: auto;
+}
+
+.anticon-dollar,
+.anticon-shopping-cart {
+  font-size: 1.5rem;
 }
